@@ -55,7 +55,7 @@ class GamepadMapping extends Equatable {
         dPadDown: ButtonAction.arrowDown,
         dPadLeft: ButtonAction.arrowLeft,
         dPadRight: ButtonAction.arrowRight,
-        leftThumb: ButtonAction.winD,
+        leftThumb: ButtonAction.mouseMiddleClick,
         rightThumb: ButtonAction.none,
         leftShoulder: ButtonAction.alt,
         rightShoulder: ButtonAction.tab,

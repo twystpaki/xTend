@@ -30,7 +30,7 @@ Doesn't respond to any controller input except for mode switch key combination
 | **B**               | Right mouse button                                                 |
 | **X**               | Browser back                                                       |
 | **Y**               | Browser forward                                                    |
-| **Left thumb**      | Win+D                                                              |
+| **Left thumb**      | Middle mouse button *(originally Win+D)*                           |
 | **Left trigger**    | Volume down                                                        |
 | **Right trigger**   | Volume up                                                          |
 | **Left shoulder**   | Alt                                                                |
