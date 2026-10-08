@@ -1,9 +1,10 @@
 <div align="center">
     <img src="./windows/runner/resources/app_icon.ico" alt="Icon" width="200" height="200">
-    <p id="version">v1.4.0</p>
+    <p id="version">v1.4.0-middlemouse.1</p>
     <h1>xTend</h1>
     <p>Let's you control your Windows PC using <b>Xbox controller</b></p>
     <p style="font-size:14px;"><b>Minimalistic | Easy to use | Open-source</b></p>
+    <p style="font-size:14px;"><i>Also check out the original at <a href="https://github.com/kulishnik22/xTend">kulishnik22/xTend</a></i></p>
 </div>
 
 
@@ -100,22 +101,23 @@ There are two mappings called `mouse` and `keyboard` each corresponding to a map
 > Note that certain mappings are **mode-specific**
 
 ## Installation  
-### Download the latest build  
-1.  [Download](https://github.com/kulishnik22/xTend/releases/download/v1.4.0/xTend.zip) the archive
+### Download the latest *(custom)* build  
+1.  [Download](https://github.com/twystpaki/xTend/releases/download/v1.4.0-middlemouse.1/xTend-v1.4.0-middlemouse.1.zip) the archive
 2. Unzip the archive and extract the xTend directory
 3. Place the directory somewhere safe
 4. Run the **xtend.exe** in the directory
 > Optionally, you can create a shortcut of **xtend.exe** and place the shortcut in your startup directory to run xTend on boot
-### Build from source
+### Build from source *(this branch)*
 **Requirements:**
 - Flutter 3.29.0
 - Dart 3.7.0
 - Windows 10 or above
 
 **Steps**
-1. Git clone the [repository](https://github.com/kulishnik22/xTend.git)
-2. Run `flutter clean` and `flutter pub get`
-3. To build the project run `flutter build windows --release`  
+1. Git clone the [repository](https://github.com/twystpaki/xTend.git)
+2. `git fetch origin` then `git switch middlemouse-build` to clone this branch
+3. Run `flutter clean` and `flutter pub get`
+4. To build the project run `flutter build windows --release`  
 Release binary along with dependencies will be located in `/build/windows/x64/runner/Release/`  
 > The location of your build will also be written to the console output  
 
