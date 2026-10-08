@@ -1,3 +1,8 @@
+# 1.4.0-middlemouse.1
+
+- Added mouseMiddleClick mapping 🖱️
+- Changed left thumb's default mapping to mouseMiddleClick 🔧
+
 # 1.4.0
 
 - Added Win+D mapping 🪟
