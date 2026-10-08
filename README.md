@@ -4,7 +4,7 @@
     <h1>xTend</h1>
     <p>Let's you control your Windows PC using <b>Xbox controller</b></p>
     <p style="font-size:14px;"><b>Minimalistic | Easy to use | Open-source</b></p>
-    <p style="font-size:14px;"><i>Also check out the original at <a href="https://github.com/kulishnik22/xTend">kulishnik22/xTend</a></i></p>
+    <p style="font-size:14px;"><i>Check out the original at <a href="https://github.com/kulishnik22/xTend">kulishnik22/xTend</a></i></p>
 </div>
 
 
@@ -102,7 +102,7 @@ There are two mappings called `mouse` and `keyboard` each corresponding to a map
 
 ## Installation  
 ### Download the latest *(custom)* build  
-1.  [Download](https://github.com/twystpaki/xTend/releases/download/v1.4.0-middlemouse.1/xTend-v1.4.0-middlemouse.1.zip) the archive
+1.  ~~[Download](https://github.com/twystpaki/xTend/releases/download/v1.4.0-middlemouse.1/xTend-v1.4.0-middlemouse.1.zip) the archive~~ **EDITED:** Since this changed has been [added](https://github.com/kulishnik22/xTend/commit/dbc7235e5d93a0c94b1aba9a516ae95c2f9f0a50) into the original repo, better download the release build from [there](https://github.com/kulishnik22/xTend/releases). *(Don't forget to bind `mouseMiddleClick` in `config.json` manually for the official release.)*
 2. Unzip the archive and extract the xTend directory
 3. Place the directory somewhere safe
 4. Run the **xtend.exe** in the directory
